@@ -8,6 +8,11 @@ keywords: "your keywords, separated by commas"
 skills: "Computer Science Student"
 meta_author: Pulmano Jeremy
 
+include:
+  - js
+
+exclude: []
+
 # Google webmaster tools
 google_verify:
 

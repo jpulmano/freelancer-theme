@@ -1,2 +1,4 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+{% include js/classie.js %}
+{% include js/freelancer.js %}
