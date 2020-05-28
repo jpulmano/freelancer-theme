@@ -1,11 +1,11 @@
 # Site settings
 title: Jeremy Pulmano
 email: test@domain.com
-# baseurl: /portfolio
-url: https://jpulmano.github.io/portfolio/
+baseurl: /portfolio
+url: https://jpulmano.github.io/
 description: "This is Jeremy's personal website."
 keywords: "your keywords, separated by commas"
-skills: "Computer Science Dude"
+skills: "CS Student"
 meta_author: Pulmano Jeremy
 
 # Google webmaster tools
