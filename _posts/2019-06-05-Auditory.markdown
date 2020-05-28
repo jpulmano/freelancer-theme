@@ -1,0 +1,12 @@
+---
+layout: default
+title: Auditory Cognition Lab
+modal-id: 2
+date: 2019-06-05
+img: eeg.png
+alt:
+project-date: Summer 2019
+client:
+category: Data Science
+description: In the summer of 2019, I worked at the Auditory Cognition Lab in Newcastle, U.K. as a Data Science Intern. I created data processing pipelines for electroencephalography (EEG) data and conducted data analysis using event-related potentials (ERPs) and cluster-based permutation tests.
+---

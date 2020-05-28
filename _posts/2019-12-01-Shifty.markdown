@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 1
+date: 2019-12-01
+img: shifty.png
+alt:
+project-date: Fall 2019
+# client: Start Bootstrap
+category: Web Development
+description: I worked with a team of four to create a web-based application called "Shifty" that allows Princeton students to manage, track, and swap work shifts for their campus jobs. I helped create the backend of the application using Flask and SQL for database management, as well as some of the frontend using React and Bootstrap.
+---

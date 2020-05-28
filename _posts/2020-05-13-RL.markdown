@@ -1,0 +1,12 @@
+---
+layout: default
+title: Backyard Baseball Reinforcement Learning Agent
+modal-id: 2
+date: 2019-05-13
+img: bb.png
+alt:
+project-date: May 2020
+client:
+category: Machine Learning
+description: For my first independent work project in computer science, I developed a Reinforcement Learning (RL) model to play the Game Boy game "Backyard Baseball" (2006). By implementing a Deep Q-Network with a Convolutional Neural Network architecture, I successfully trained an agent to hit home runs and throw strikes.
+---
