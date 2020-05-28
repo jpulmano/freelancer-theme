@@ -27,20 +27,20 @@ contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+# disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 3aafa9 # Big primary bar color
   primary-rgb: "58,175,169" # Projects hover-over
   secondary: 282828 # Portfolio color and top bar
-  secondary-dark: edf5e1 # Highlight of three menus
+  secondary-dark: 3aafa9 # Highlight of three menus
 
 # Footer settings
 footer:
   copyright: Dr. Henry Jekyll
   location: Location
-  social: Around the Web
+  social: Social
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -56,7 +56,7 @@ social:
 #   - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Theme created with <a href="http://startbootstrap.com">Start Bootstrap</a> and open-sourced.'
+credits: 'Theme created with <a href="http://startbootstrap.com">Start Bootstrap</a> and open-sourced on Jekyll.'
 
 # Build settings
 markdown: kramdown
