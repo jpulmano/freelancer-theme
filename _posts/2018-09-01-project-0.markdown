@@ -1,0 +1,12 @@
+---
+layout: default
+title: HackPrinceton Fall 2018 Winner
+modal-id: 0 # Don't forget to change this!
+date: 2018-09-01
+img: hackprinceton.png
+alt:
+project-date: Fall 2018
+client:
+category: Hackathon
+description: My team of four won <b>Best Overall</b> and the <b>ITHAKA Build Smarter Hack,</b> recognizing best educational technology. We developed an educational hack to identify a student's learning style using an electroencephalogram (EEG) and to cater educational materials to their specific needs.<br/><br/> Read more about the project <a href="https://devpost.com/software/eduwave">here</a>.
+---

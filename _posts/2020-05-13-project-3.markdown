@@ -8,5 +8,5 @@ alt:
 project-date: May 2020
 client:
 category: Machine Learning
-description: For my first independent work project in computer science, I developed a Reinforcement Learning (RL) model to play the Game Boy game "Backyard Baseball" (2006). By implementing a Deep Q-Network with a Convolutional Neural Network architecture, I successfully trained an agent to hit home runs and throw strikes.
+description: For my first independent work project in computer science, I developed a Reinforcement Learning (RL) model to play the Game Boy game "Backyard Baseball" (2006). By implementing a Deep Q-Network with a Convolutional Neural Network architecture, I successfully trained an agent to consistently hit home runs when at-bat and throw strikes when pitching.
 ---
