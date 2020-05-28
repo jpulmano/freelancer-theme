@@ -7,6 +7,9 @@ keywords: "your keywords, separated by commas"
 skills: "Computer Science Student"
 meta_author: Pulmano Jeremy
 
+# Update base url
+baseurl: /portfolio
+
 # Google webmaster tools
 google_verify:
 
