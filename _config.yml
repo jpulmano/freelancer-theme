@@ -5,7 +5,7 @@ baseurl: /portfolio
 url: https://jpulmano.github.io/
 description: "This is Jeremy's personal website."
 keywords: "your keywords, separated by commas"
-skills: "Computer Science Student"
+skills: "Computer Science Student - Poet - Dancer - Musician"
 meta_author: Pulmano Jeremy
 
 include:
@@ -31,10 +31,10 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 87CEFA #80B3FF
-  primary-rgb: "0,191,255" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 3aafa9 # Big primary bar color
+  primary-rgb: "58,175,169" # Projects hover-over
+  secondary: 282828 # Portfolio color and top bar
+  secondary-dark: edf5e1 # Highlight of three menus
 
 # Footer settings
 footer:
