@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Backyard Baseball Reinforcement Learning Agent
-modal-id: 2
-date: 2019-05-13
+title: Backyard Baseball RL Agent
+modal-id: 3 # Don't forget to change this!
+date: 2020-05-13
 img: bb.png
 alt:
 project-date: May 2020

@@ -1,6 +1,7 @@
 ---
 layout: default
-modal-id: 1
+title: Shifty
+modal-id: 2
 date: 2019-12-01
 img: shifty.png
 alt:

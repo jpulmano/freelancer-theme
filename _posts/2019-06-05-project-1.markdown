@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Auditory Cognition Lab
-modal-id: 2
+modal-id: 1 # Don't forget to change this!
 date: 2019-06-05
 img: eeg.png
 alt:
