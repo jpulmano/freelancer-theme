@@ -71,4 +71,4 @@ defaults:
       permalink: ""
 
 # refreshing on Github
-future: true
+root: /octo-5
