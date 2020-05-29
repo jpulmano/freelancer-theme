@@ -4,10 +4,14 @@ email: test@domain.com
 baseurl: /portfolio
 url: https://jpulmano.github.io/
 description: "This is Jeremy's personal website."
-keywords: "your keywords, separated by commas"
-skills: "Computer Science Student - Poet - Dancer - Musician"
+keywords: "computer science, projects, machine learning, software engineering"
+skills: "CS Student • Poet • Dancer • Musician"
 meta_author: Pulmano Jeremy
 
+# Different types of posts
+collections:
+  - posts
+  - art
 include:
   - js
 
@@ -23,7 +27,7 @@ bing_verify:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
-contact: static
+# contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208

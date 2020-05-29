@@ -36,7 +36,7 @@ h6 {
     font-weight: 700;
 }
 
-hr.star-light,
+hr.star-light, hr.star-light-about,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
@@ -47,8 +47,7 @@ hr.star-primary {
     overflow: visible;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
+hr.star-light:after, hr.star-light-about:after, hr.star-primary:after {
     content: "\f13a";  /* down: \f078 star: \f005 */
     display: inline-block;
     position: relative;
@@ -58,7 +57,7 @@ hr.star-primary:after {
     font-size: 2em;
 }
 
-hr.star-light {
+hr.star-light, hr.star-light-about {
     border-color: #fff;
 }
 
@@ -67,6 +66,7 @@ hr.star-light:after {
     background-color: #{{ site.color.primary }};
 }
 
+
 hr.star-primary {
     border-color: #{{ site.color.secondary }};
 }
@@ -74,6 +74,17 @@ hr.star-primary {
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
     background-color: #fff;
+}
+
+/* Duplicating for star-light about */
+
+hr.star-light-about:after {
+    color: #fff;
+    background-color: #{{site.color.secondary}};
+}
+
+hr.star-light-about {
+    border-color: #fff;
 }
 
 .img-centered {
@@ -182,7 +193,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.secondary }}; /* About background, originally priary */
 }
 
 @media(max-width:767px) {
@@ -195,19 +206,19 @@ section.success {
     }
 }
 
-#portfolio .portfolio-item {
+#projects .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#projects .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption {
+#projects .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -218,11 +229,11 @@ section.success {
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#projects .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#projects .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -233,21 +244,75 @@ section.success {
     color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#projects .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#projects .portfolio-item .portfolio-link .caption .caption-content h3,
+#projects .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
 }
 
-#portfolio * {
+#projects * {
     z-index: 2;
 }
 
+/* artwork, same stuff as # projects for now */
+#artwork .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#artwork .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#artwork .portfolio-item .portfolio-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba({{ site.color.primary-rgb }},.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#artwork .portfolio-item .portfolio-link .caption:hover {
+    opacity: 1;
+}
+
+#artwork .portfolio-item .portfolio-link .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center; 
+    font-size: 20px;
+    color: #fff;
+}
+
+#artwork .portfolio-item .portfolio-link .caption .caption-content i {
+    margin-top: -12px;
+}
+
+#artwork .portfolio-item .portfolio-link .caption .caption-content h3,
+#artwork .portfolio-item .portfolio-link .caption .caption-content h4 {
+    margin: 0;
+}
+
+#artwork * {
+    z-index: 2;
+}
+
+/* end artwork */
+
 @media(min-width:767px) {
-    #portfolio .portfolio-item {
+    #projects .portfolio-item {
         margin: 0 0 30px;
     }
 }
@@ -399,7 +464,7 @@ footer .footer-below {
 
 .portfolio-modal .modal-content h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 2.25em; /* orig 3 */
     text-align: center; /* title centered */
 }
 
