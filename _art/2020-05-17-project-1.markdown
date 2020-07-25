@@ -1,0 +1,12 @@
+---
+layout: default
+title: Published by The Nassau Literary Review
+art-modal-id: 1 # Don't forget to change this!
+date: 2020-05-17
+img: nasslit-edit.png
+alt:
+project-date: Spring 2020
+client:
+category: Poetry
+description: My poem entitled "Honey" was published in <a href="https://nasslit.com/spring-2020-the-virtual-issue-b89c76c47458">"The Virtual Issue"</a>, <i>The Nassau Literary Review</i>'s Spring 2020 issue.
+---

@@ -1,0 +1,12 @@
+---
+layout: default
+title: Published in "Shelter in Place" Series
+art-modal-id: 2 # Don't forget to change this!
+date: 2020-06-01
+img: yellow-edit.png
+alt:
+project-date: Spring 2020
+client:
+category: Poetry
+description: My poem entitled "Yellow" was published in <i>The Nassau Literary Review</i>'s <a href="https://nasslit.com/shelter-in-place-1-princeton-gothics-yellow-46a249fe20c0">"Shelter in Place"</a> series.
+---

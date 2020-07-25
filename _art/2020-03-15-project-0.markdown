@@ -1,0 +1,12 @@
+---
+layout: default
+title: Published by Lucky Jefferson
+art-modal-id: 0 # Don't forget to change this!
+date: 2020-03-15
+img: luckyjefferson-edit.png
+alt:
+project-date: Spring 2020
+client:
+category: Poetry
+description: My poem entitled "last song" was published in <a href="https://luckyjefferson.com/pages/exposed">"Exposed"</a>, Lucky Jefferson's Spring 2020 print issue. Additionally, my poems "capers" and "Soft is hard" were published in <a href="https://luckyjefferson.com/pages/365-collection-1">365 Collection</a>.
+---
