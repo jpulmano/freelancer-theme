@@ -76,3 +76,6 @@ defaults:
 
 # refreshing on Github
 root: /octo-5
+
+plugins:
+  - jekyll-sitemap
