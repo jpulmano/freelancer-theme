@@ -1,7 +1,7 @@
 # Site settings
 title: Jeremy Pulmano
 email: test@domain.com
-baseurl: /portfolio
+baseurl:
 url: https://jpulmano.github.io/
 description: "This is Jeremy's personal website."
 keywords: "computer science, projects, machine learning, software engineering"
